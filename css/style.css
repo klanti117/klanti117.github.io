@@ -1,0 +1,64 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+   background: #EFEFBB;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   font-size: 15px;
+}
+#main-container{
+   margin: 20px;
+}
+button{
+   border-radius: 4px;
+}
+ul{
+   list-style: none;
+   margin:0;
+   padding:0;
+}
+.nominated{
+    background-color:gainsboro;
+    color: gray;
+}
+.searchArea{
+   width:50%;
+   margin:50px auto;
+   background: #f7f7f7;
+   box-shadow: 0 0 3px rgba(0,0,0,0.1);
+   padding: 13px 13px 13px 20px;
+}
+#results{
+   background: #f7f7f7;
+   box-shadow: 0 0 3px rgba(0,0,0,0.1);
+   padding: 13px 13px 13px 20px;
+}
+#searchRes{
+   background: #f7f7f7;
+   box-shadow: 0 0 3px rgba(0,0,0,0.5);
+   padding: 13px 13px 13px 20px;
+}
+#nominations{
+   background: #f7f7f7;
+   box-shadow: 0 0 3px rgba(0,0,0,0.5);
+   padding: 13px 13px 13px 20px;
+}
+li{
+   background: #fff;
+   background: #fff;
+   height: 50px;
+   color: #666;
+   line-height: 40px;/* centers the text in the row */
+
+}
+li:nth-child(2n){
+   background:#f7f7f7;
+}
+.Polaris-ResourceItem__Content{
+    margin-left: 4px;
+}
+.Polaris-TextField{
+   line-height: 0.1em;
+}
